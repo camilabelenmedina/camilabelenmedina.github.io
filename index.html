@@ -1,223 +1,172 @@
 <!DOCTYPE html>
-<html lang="es-AR">
-
-<!-- Deployed by R. Nicolás Savinelli <https://savinelli.com.ar> -->
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <title>Camila Medina &ndash; Inicio</title>
-  <meta content="Estudiante de Lic. en Nutrición en la Universidad de Buenos Aires." name="description">
-  <meta name="author" content="Camila Medina" />
-  <meta name="generator" content="Roberto Nicolas Savinelli">
-  <meta content="Nutrición, Nutricion, Nutricionista, Argentina, Buenos Aires" name="keywords">
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+        }
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
-    rel="stylesheet">
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: Laura - v4.7.0
-  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+        .message {
+            color: #555;
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .construction-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+
+        .construction-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #364f6e, #094563);
+            width: 65%;
+            animation: loading 2s infinite;
+        }
+
+        .contact-text {
+            color: #999;
+            font-size: 0.9rem;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes loading {
+            0% {
+                width: 30%;
+            }
+            50% {
+                width: 70%;
+            }
+            100% {
+                width: 30%;
+            }
+        }
+
+        /* Tablet styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 35px 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        /* Mobile styles */
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 30px 20px;
+                border-radius: 15px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                margin-bottom: 10px;
+            }
+
+            .subtitle {
+                font-size: 0.95rem;
+                margin-bottom: 20px;
+            }
+
+            .message {
+                font-size: 0.9rem;
+                margin-bottom: 25px;
+            }
+
+            .construction-bar {
+                margin: 20px 0;
+            }
+
+            .contact-text {
+                font-size: 0.85rem;
+                margin-top: 20px;
+                padding-top: 15px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
-
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-        <li><a class="nav-link scrollto" href="#about">Acerca de mi</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-        <li><a class="nav-link" target="_blank"
-            href="https://1drv.ms/u/s!AqVgLxEZALLxbvgPJfkQ6aEkYvs?e=HxF7oI">Certificados</a></li>
-        <li><a class="nav-link" target="_blank"
-            href="https://1drv.ms/u/s!AqVgLxEZALLxdybb1bhzNt6Cz5M?e=vsgbAt">Curriculum Vitae</a></li>
-        <li class="dropdown"><a href="#"><span>Redes Sociales</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/medinacamila/">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/medinacamila.b/">Instagram</a></li>
-          </ul>
-        </li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>Camila Medina</h1>
-      <h2>Estudiante de Lic. en Nutrición en la Universidad de Buenos Aires.</h2>
-      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Me Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Acerca de mi</span>
-          <h2>Acerca de mi</h2>
-        </div>
-
-        <div class="align-items-stretch">
-          <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-            <p>
-              Soy Camila Medina, estudiante avanzada de Lic. en nutrición en la Universidad de Buenos Aires.
-              El estudio del funcionamiento de nuestro cuerpo humano me ha permitido ver cómo la nutrición es algo
-              fundamental e inherente para su óptimo estado dentro de cada contexto personal, y que a través de la
-              dietoterapia se pueden mejorar las enfermedades y los problemas de salud de las personas.
-            </p>
-            <p>
-              La alimentación no debería estar ligada únicamente al objetivo de adelgazar, sino a tener un estilo de
-              vida saludable y equilibrado mediante una buena relación con los alimentos.
-              <strong><span>El énfasis no debería estar en contar calorías, sinó nutrientes</span></strong>.
-            </p>
-            <p>
-              Mi pasión es la educación nutricional, la cocina y el buen comer.
-              Considero que el haber dejado de lado una actividad tan importante como la cocina, ha ocasionado
-              importantes consecuencias negativas en la salud de las personas.
-              Y que uno de los grandes retos de los Lic. en Nutrición y de los profesionales de la salud es
-              incentivar a la personas a cocinar los alimentos en el hogar. De esta manera, nos volvemos menos
-              dependientes de los ultraprocesados y podemos disfrutar de platos ricos y saludables.
-            </p>
-            <p>
-              Mi objetivo es seguir formándome en diversas áreas en las cuales tengo un especial interés: pediatría,
-              endocrinología, y psicología de la nutrición.
-              Logré comprender la relevancia que tenía la alimentación en las diferentes etapas de la vida, en
-              determinadas patologías, y la necesidad de una intervención nutricional más profesional, pero también
-              más humana.
-            </p>
-            <p>
-              Me siento privilegiada de saber que puedo acompañar a las personas a mejorar su vida y conseguir sus
-              objetivos gracias a un cambio de hábitos alimentarios que permitan disfrutar de una alimentación
-              saludable.
-              Y si con ello consigo prevenir, mejorar o curar una enfermedad, mi gratificación está asegurada.
-            </p>
-
-          </div><!-- End .content-->
-        </div>
-
-      </div>
-    </section><!-- End About Me Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container position-relative">
-        <div class="testimonials-slider">
-
-          <div class="testimonial-item">
-            <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
-            <h3>Dr. Pedro Escudero</h3>
-            <h4>Padre de la Nutrición en la República Argentina</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              “Nutrición es el resultado de un conjunto de funciones armónicas y solidarias entre sí, que tienen como
-              finalidad mantener la integridad de la materia y preservar la vida”.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div> <!-- End testimonial item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-
-    <!-- ======= Contact Me Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Contacto</span>
-          <h2>Contacto</h2>
-          <p>
-            Para consultas académicas/profesionales, envíame un mensaje por alguno de estos medios.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="info-box mt-4">
-              <i class="bx bx-envelope"></i>
-              <h3>E-mail</h3>
-              <a href="mailto:medinacamila.b@outlook.es">medinacamila.b@outlook.es</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-box mt-4">
-              <i class="bx bxl-linkedin"></i>
-              <h3>LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/medinacamila/">medinacamila</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      </div>
-    </section><!-- End Contact Me Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
     <div class="container">
-      <h3>Camila Medina</h3>
-      <p>Estudiante de Lic. en Nutrición en la Universidad de Buenos Aires.</p>
-      <div class="copyright mb-4">
-        Copyright &copy; 2022 <strong><span>Camila Medina</span></strong>
-      </div>
-      <div class="credits">
-        Desarrollo por <a href="https://www.savinelli.com.ar" title="R. Nicolás Savinelli">R. Nicolás Savinelli</a>
-        <br>
-        Imágenes por <a href="https://unsplash.com/@lum3n">LUM3N</a>, <a href="https://unsplash.com/@brookelark">Brooke
-          Lark</a> y <a href="https://unsplash.com/@margzu">Margarita Zueva</a>
-        <br>
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
-        Diseño por <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        <br>
-        Logo por <a href="https://www.freepik.com">Freepik</a>
-      </div>
+        <h1>Under Construction</h1>
+        <p class="subtitle">Something amazing is on the way!</p>
+        
+        <p class="message">
+            We're working hard to bring you an awesome experience. 
+            Our team is busy building something special. 
+            Please check back soon!
+        </p>
+
+        <div class="construction-bar">
+            <div class="construction-bar-fill"></div>
+        </div>
+
+        <p class="contact-text">
+            In the meantime, feel free to reach out to us if you have any questions.
+        </p>
     </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
